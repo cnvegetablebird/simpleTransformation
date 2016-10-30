@@ -14,6 +14,15 @@
 		E73695BC1DC5E16B0054D717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73695BA1DC5E16B0054D717 /* LaunchScreen.storyboard */; };
 		E73695C71DC5E16B0054D717 /* simpleTransformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73695C61DC5E16B0054D717 /* simpleTransformationTests.swift */; };
 		E73695D21DC5E16B0054D717 /* simpleTransformationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73695D11DC5E16B0054D717 /* simpleTransformationUITests.swift */; };
+		E73695E11DC5EAF90054D717 /* ListCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73695DF1DC5EAF90054D717 /* ListCollectionCell.swift */; };
+		E73695E21DC5EAF90054D717 /* ListCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73695E01DC5EAF90054D717 /* ListCollectionCell.xib */; };
+		E73695E51DC5EB1B0054D717 /* detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E73695E31DC5EB1B0054D717 /* detail.jpg */; };
+		E73695E61DC5EB1B0054D717 /* list.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E73695E41DC5EB1B0054D717 /* list.jpg */; };
+		E73695E91DC5EB550054D717 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73695E71DC5EB550054D717 /* DetailViewController.swift */; };
+		E73695EA1DC5EB550054D717 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73695E81DC5EB550054D717 /* DetailViewController.xib */; };
+		E73695ED1DC5EFC70054D717 /* ListTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73695EC1DC5EFC70054D717 /* ListTransitions.swift */; };
+		E73695EF1DC5F0A80054D717 /* PushAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73695EE1DC5F0A80054D717 /* PushAnimated.swift */; };
+		E73695F11DC5F13B0054D717 /* PopAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73695F01DC5F13B0054D717 /* PopAnimated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		E73695CD1DC5E16B0054D717 /* simpleTransformationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleTransformationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73695D11DC5E16B0054D717 /* simpleTransformationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleTransformationUITests.swift; sourceTree = "<group>"; };
 		E73695D31DC5E16B0054D717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73695DF1DC5EAF90054D717 /* ListCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCollectionCell.swift; sourceTree = "<group>"; };
+		E73695E01DC5EAF90054D717 /* ListCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCollectionCell.xib; sourceTree = "<group>"; };
+		E73695E31DC5EB1B0054D717 /* detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail.jpg; sourceTree = "<group>"; };
+		E73695E41DC5EB1B0054D717 /* list.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = list.jpg; sourceTree = "<group>"; };
+		E73695E71DC5EB550054D717 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E73695E81DC5EB550054D717 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		E73695EC1DC5EFC70054D717 /* ListTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransitions.swift; sourceTree = "<group>"; };
+		E73695EE1DC5F0A80054D717 /* PushAnimated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushAnimated.swift; sourceTree = "<group>"; };
+		E73695F01DC5F13B0054D717 /* PopAnimated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,19 @@
 		E73695B01DC5E16B0054D717 /* simpleTransformation */ = {
 			isa = PBXGroup;
 			children = (
+				E73695EB1DC5EF720054D717 /* transformAnimation */,
 				E73695B11DC5E16B0054D717 /* AppDelegate.swift */,
 				E73695B31DC5E16B0054D717 /* ViewController.swift */,
 				E73695B51DC5E16B0054D717 /* Main.storyboard */,
+				E73695E71DC5EB550054D717 /* DetailViewController.swift */,
+				E73695E81DC5EB550054D717 /* DetailViewController.xib */,
+				E73695DF1DC5EAF90054D717 /* ListCollectionCell.swift */,
+				E73695E01DC5EAF90054D717 /* ListCollectionCell.xib */,
 				E73695B81DC5E16B0054D717 /* Assets.xcassets */,
 				E73695BA1DC5E16B0054D717 /* LaunchScreen.storyboard */,
 				E73695BD1DC5E16B0054D717 /* Info.plist */,
+				E73695E31DC5EB1B0054D717 /* detail.jpg */,
+				E73695E41DC5EB1B0054D717 /* list.jpg */,
 			);
 			path = simpleTransformation;
 			sourceTree = "<group>";
@@ -123,6 +148,16 @@
 				E73695D31DC5E16B0054D717 /* Info.plist */,
 			);
 			path = simpleTransformationUITests;
+			sourceTree = "<group>";
+		};
+		E73695EB1DC5EF720054D717 /* transformAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E73695EC1DC5EFC70054D717 /* ListTransitions.swift */,
+				E73695EE1DC5F0A80054D717 /* PushAnimated.swift */,
+				E73695F01DC5F13B0054D717 /* PopAnimated.swift */,
+			);
+			name = transformAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +268,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E73695BC1DC5E16B0054D717 /* LaunchScreen.storyboard in Resources */,
+				E73695E51DC5EB1B0054D717 /* detail.jpg in Resources */,
+				E73695EA1DC5EB550054D717 /* DetailViewController.xib in Resources */,
 				E73695B91DC5E16B0054D717 /* Assets.xcassets in Resources */,
 				E73695B71DC5E16B0054D717 /* Main.storyboard in Resources */,
+				E73695E61DC5EB1B0054D717 /* list.jpg in Resources */,
+				E73695E21DC5EAF90054D717 /* ListCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73695EF1DC5F0A80054D717 /* PushAnimated.swift in Sources */,
 				E73695B41DC5E16B0054D717 /* ViewController.swift in Sources */,
+				E73695ED1DC5EFC70054D717 /* ListTransitions.swift in Sources */,
+				E73695E11DC5EAF90054D717 /* ListCollectionCell.swift in Sources */,
 				E73695B21DC5E16B0054D717 /* AppDelegate.swift in Sources */,
+				E73695E91DC5EB550054D717 /* DetailViewController.swift in Sources */,
+				E73695F11DC5F13B0054D717 /* PopAnimated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = simpleTransformation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cn.simpleTransformation.simpleTransformation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.simpleTransformation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,7 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = simpleTransformation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cn.simpleTransformation.simpleTransformation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.simpleTransformation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
